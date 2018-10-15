@@ -1,0 +1,110 @@
+C:\Users\davis\AppData\Local\Programs\Python\Python35\python.exe "C:/Users/davis/Dropbox/Python Projects/CoinbaseInfoDigger/Run.py"
+buy
+{
+  "allow_buy": false,
+  "allow_deposit": false,
+  "allow_sell": false,
+  "allow_withdraw": false,
+  "created_at": "2018-03-19T21:54:39Z",
+  "currency": "EUR",
+  "id": "074453a8-a29b-5de8-909e-2f5a3b970b30",
+  "instant_buy": true,
+  "instant_sell": false,
+  "name": "MasterCard debit ********6699",
+  "primary_buy": false,
+  "primary_sell": false,
+  "resource": "payment_method",
+  "resource_path": "/v2/payment-methods/074453a8-a29b-5de8-909e-2f5a3b970b30",
+  "type": "secure3d_card",
+  "updated_at": "2018-03-19T21:54:39Z",
+  "verified": true
+}
+{
+  "amount": {
+    "amount": "0.00551882",
+    "currency": "BTC"
+  },
+  "committed": true,
+  "created_at": "2018-03-20T22:31:30Z",
+  "fees": [
+    {
+      "amount": {
+        "amount": "1.99",
+        "currency": "EUR"
+      },
+      "type": "coinbase"
+    },
+    {
+      "amount": {
+        "amount": "0.00",
+        "currency": "EUR"
+      },
+      "type": "bank"
+    }
+  ],
+  "id": "d5d70636-e800-5f09-b069-c7efed121a01",
+  "instant": true,
+  "is_first_buy": false,
+  "payment_method": {
+    "id": "074453a8-a29b-5de8-909e-2f5a3b970b30",
+    "resource": "payment_method",
+    "resource_path": "/v2/payment-methods/074453a8-a29b-5de8-909e-2f5a3b970b30"
+  },
+  "payout_at": "2018-03-20T22:31:29Z",
+  "requires_completion_step": true,
+  "resource": "buy",
+  "resource_path": "/v2/accounts/d7d47062-eb3b-5916-a988-9873f31ab385/buys/d5d70636-e800-5f09-b069-c7efed121a01",
+  "secure3d_verification": {
+    "payload": [
+      {
+        "name": "PaReq",
+        "value": "eJxVUtFygjAQ/BWnH0BCAEXnmhlQxtIZUBC1faQxU6kKGEBsv76JYq2ZPNzuXZK9zUGyFZxPFpw1glMIeFWln7yXbZ6fiG3ZloEtQpwnCnMn5kcKJy6qrMiprmGNALpBeVCwbZrXFFJ2dP2QWiaxdAtQB+HAhT+hA2ybfTww8HUButKQpwdOWZHlH2nFNVYcAF0oYEWT1+Kb2qQP6AagEXu6retyhFDbttrjQZUEdBc0b1RUycvO2YYGy+gcL+NpvPTbMHGnobfU46+dHvx4z4BUBWzSmlOCdRsbBPcIGRm63IAuPKQHpYKaROsPZXtXBKV6xLmlVOY/A9JdwXP2TYcDW/ZxQ8DPZZFzWSG9/IthwytGxzM/dJ2F11utXG+WBI4UoHhA94bGL8pvVksL99Hp6DsuTl7XREzjxtyv38rofTqOdrKvrki9l0kDiY6lwg4AUteg7oOlcZcRkNHDaPwCCEq1Cg=="
+      },
+      {
+        "name": "TermUrl",
+        "value": "https://www.coinbase.com/buy/secure3d_redirect"
+      }
+    ],
+    "url": "https://cap.attempts.securecode.com/acspage/cap?RID=132&VAA=A"
+  },
+  "status": "created",
+  "subtotal": {
+    "amount": "40.70",
+    "currency": "EUR"
+  },
+  "total": {
+    "amount": "42.69",
+    "currency": "EUR"
+  },
+  "transaction": {
+    "id": "833820bc-3a1e-598e-8392-37ffd01e76e3",
+    "resource": "transaction",
+    "resource_path": "/v2/accounts/d7d47062-eb3b-5916-a988-9873f31ab385/transactions/833820bc-3a1e-598e-8392-37ffd01e76e3"
+  },
+  "updated_at": "2018-03-20T22:31:31Z",
+  "user_reference": "JH8S46JR"
+}
+True
+{
+  "allow_buy": false,
+  "allow_deposit": false,
+  "allow_sell": false,
+  "allow_withdraw": false,
+  "created_at": "2018-03-19T21:54:39Z",
+  "currency": "EUR",
+  "id": "074453a8-a29b-5de8-909e-2f5a3b970b30",
+  "instant_buy": true,
+  "instant_sell": false,
+  "name": "MasterCard debit ********6699",
+  "primary_buy": false,
+  "primary_sell": false,
+  "resource": "payment_method",
+  "resource_path": "/v2/payment-methods/074453a8-a29b-5de8-909e-2f5a3b970b30",
+  "type": "secure3d_card",
+  "updated_at": "2018-03-19T21:54:39Z",
+  "verified": true
+}
+074453a8-a29b-5de8-909e-2f5a3b970b30
+development
+
+Process finished with exit code 0

@@ -1,0 +1,11 @@
+
+- Guardar el histórico de precios de bitcoin en elasticsearch.
+- Guardar en que estado se encuentra el sistema (compra o venta).
+- Dependiendo del estado configurar al sistema si compra o vende. Registrar en la base
+  la compra o venta.
+- Dejar en un loop al sistema y esperar 2 minutos o 1 minuto.
+- Configuraciones iniciales servidor de producción
+- Subir a git el código
+- Configurar servidor docker para que descargue el código y esté ejecutándose siempre.
+- Configurar docker para que el log este afuera del contenedor.
+- Machine learning al histórico de información
